@@ -1,0 +1,30 @@
+{
+  "name": "vector-interviews",
+  "version": "1.0.0",
+  "description": "In this repository, you'll find a series of real-world backend development tasks designed to showcase skills in building scalable, secure, and high-performance server-side applications for Vector Interview, an asynchronous video interview platform.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Izu-33/vector-interviews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Izu-33/vector-interviews/issues"
+  },
+  "homepage": "https://github.com/Izu-33/vector-interviews#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
