@@ -67,9 +67,9 @@ JWT_SECRET_KEY=your-secret-key
 ## 🧑‍💻 API Endpoints (Backend)
 | Method | Endpoint | Description |
 |--------|---------|-------------|
-| `POST` | `/api/auth/register` | Register a new user |
-| `POST` | `/api/auth/login` | User login |
-| `POST` | `/api/interviews` | Create a new interview |
+| `POST` | `https://vector-interviews.onrender.com/api/v1/vector-interviews/users/signup` | Register a new user |
+| `POST` | `https://vector-interviews.onrender.com/api/v1/vector-interviews/users/signin` | User login |
+| `POST` | `https://vector-interviews.onrender.com/api/v1/vector-interviews/interviews/create-interview` | Create a new interview |
 
 ## 🚀 Contributing
 We welcome contributions! To get started:
