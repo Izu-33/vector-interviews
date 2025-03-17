@@ -5,7 +5,7 @@ const uploadToCloudinary = async (filePath) => {
         const result = await new Promise((resolve, reject) => {
             cloudinary.uploader.upload_large(filePath, {
                 resource_type: "video",
-                chunk_size: 6000000,
+                chunk_size: 20000000,
                 transformation: [
                     { quality: "auto" },
                     { fetch_format: "auto" }
@@ -13,6 +13,7 @@ const uploadToCloudinary = async (filePath) => {
                 format: "mp4",
                 video_codec: "auto",
                 folder: "candidate_videos",
+                timeout: 60000 * 5,
                 max_file_size: 150000000 
               }, (error, result) => {
                 if (error) {
